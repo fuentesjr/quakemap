@@ -7,20 +7,15 @@
 
 <body>
   <div id="app-container"></div>
+  <script src="http.js"></script>
+
+  <script src="https://maps.google.com/maps/api/js"></script>
+  <script src="https://hpneo.github.io/gmaps/gmaps.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
-  <script type="text/babel">
-    class Hello extends React.Component {
-      render() {
-        return <div>Hello {this.props.name}!</div>;
-      }
-    }
 
-    ReactDOM.render(
-      <Hello name="QuakeMap" />,
-      document.getElementById('app-container')
-    );
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  <script type="text/babel" src="app.js"></script>
 </body>
 </html>
